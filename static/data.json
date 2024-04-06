@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Goro",
+    "surname": "Vatazumi",
+    "photo": "https://www.xgamers.ru/Handler1.ashx?id=16180",
+    "profession": [
+      "инженер-исследователь",
+      "пилот",
+      "строитель"
+    ]
+  },
+  {
+    "name": "Itto",
+    "surname": "Aratacki",
+    "photo": "https://img2.wtftime.ru/store/2021/10/14/xzbaL1lC_big_poster.jpg",
+    "profession": [
+      "астрогеолог",
+      "гляциолог"
+    ]
+  },
+  {
+    "name": "Klee",
+    "surname": "Boom-Boom",
+    "photo": "https://cs14.pikabu.ru/post_img/2021/02/17/6/og_og_1613553074231785332.jpg",
+    "profession": [
+      "киберинженер",
+      "штурман",
+      "пилот дронов"
+    ]
+  }
+]

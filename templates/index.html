@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <h1>
+        Works log
+    </h1>
+</div>
+{%for item in jobs%}
+<table>
+    <caption>Action # {{loop.index}}</caption>
+    <thead>
+    <tr>
+        {%for i in names%}
+        <th>{{i}}</th>
+        {%endfor%}
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        {%for i in turn%}
+        {%if i =='team_leader'%}
+        <th>{{item.user.surname}} {{item.user.name}}</th>
+        {%else%}
+        <th>{{item[i]}}</th>
+        {%endif%}
+
+        {%endfor%}
+    </tr>
+    </tbody>
+</table>
+{%endfor%}
+{% endblock %}

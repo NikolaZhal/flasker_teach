@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <h1>
+        Оформление каюты
+    </h1>
+</div>
+<table>
+    <caption>Оформление каюты</caption>
+    <thead>
+    <tr>
+        <th>Цвет стен</th>
+        <th>Эмблема</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th style="background:{{data['color']}}">
+            <div></div>
+        </th>
+        <th><img src="../../static/img/{{data['img']}}"></th>
+    </tr>
+    </tbody>
+</table>
+{% endblock %}

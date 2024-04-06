@@ -1,0 +1,33 @@
+h4{
+  padding-left: 20px;
+
+  color: #aaaaaa;
+}
+
+.icon::before{
+  content: url("../img/icon.png");
+  margin-down: 5px;
+
+  position: relative;
+  float: left;
+
+}
+
+.main-navigation {
+  line-height: 20px;
+}
+
+thead {
+    background : #aaaaaa;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+}
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
